@@ -1,7 +1,6 @@
 # Toronto PCard Expenditures
 
-<img src="https://img.shields.io/badge/python-3.7.7-blue"/>
-<img src="https://img.shields.io/badge/documentation-no-red" />
+<img src="https://img.shields.io/badge/python-3.7.7-blue"/> <img src="https://img.shields.io/badge/documentation-no-red" />
 
 The following repository runs a HDBSCAN clustering algorithm on the City of Toronto Division's based on their purchases from 2011 to 2019.
 
