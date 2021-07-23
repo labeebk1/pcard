@@ -12,7 +12,7 @@ Please install the following libraries in requirements.txt
 pip install -r requirements.txt
 ```
 
-please download and extract the pcard-expenditures data from [here](https://open.toronto.ca/dataset/pcard-expenditures/) into the /data/raw_data/ folder.
+please download and extract the pcard-expenditures data from [here](https://open.toronto.ca/dataset/pcard-expenditures/) into the ./data/raw_data/ folder.
 
 ## Pipeline
 
