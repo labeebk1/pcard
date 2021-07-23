@@ -242,6 +242,9 @@ if __name__ == '__main__':
     folder_path = '../data/clean_data/'
     file_name = 'PCardExpenses_Clean_201101-201907.pickle'
 
+    if not os.path.exists('../output/'):
+        os.mkdir('../output/')
+
     df = pd.read_pickle(os.path.join(folder_path, file_name))
 
     divisions = df['Division'].value_counts().index.to_list()

@@ -148,6 +148,9 @@ if __name__ == '__main__':
     raw_data_path = '../data/raw_data/'
     output_data_path = '../data/clean_data/'
 
+    if not os.path.exists(output_data_path):
+        os.mkdir(output_data_path)
+
     # Get list of file names from the raw_data folder
     expense_report_names = [name for name in os.listdir(
         raw_data_path) if 'xls' in name[-4:].lower()]
